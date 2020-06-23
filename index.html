@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mykhailo Parfeniuk - beginner web-developer</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/3263e75f2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<nav>
+				<div class="logo">
+					<a href="index.html" class="logo__name">m.p</a>
+				</div>
+				<div class="hamburger-menu">
+					<input id="menu__icon" type="checkbox" />
+					<label class="menu__btn" for="menu__icon">
+						<span class="hamburger-icon"></span>
+					</label>
+					<ul class="menu__box">
+						<li>
+							<div class="menu__item-position">
+								<a href="#" class="menu__item menu__item-active">Portfolio</a>
+							</div>
+						</li>
+						<li>
+							<div class="menu__item-position">
+								<a href="about.html" class="menu__item menu__item-last">About</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="main">
+			<section class="about">
+				<div class="about__title">
+					Hello, I am Mykhailo, a beginner web-developer, based in Kyiv, Ukraine.
+				</div>
+			</section>
+			<section class="projects">
+				<div class="projects__grid">
+					<div class="card-columns">
+						<!-- Card 1 in grid -->
+						<div class="card">
+							<a href="https://codepen.io/mpone/pen/xxxgvBY" class="projects__grid-item" target="_blank" title="Sweets by S.B">
+								<img src="img/1.jpg" alt="" class="projects__img">
+								<div class="projects__text">
+									<span class="projects__text-title">
+									Sweets by S.B
+								</span>
+								<span class="projects__text-subtitle">
+									Brand page about bespoke candies 
+								</span>
+								</div>
+							</a>
+						</div>
+						<div class="card">
+							<a href="https://codepen.io/mpone/pen/VwZqXWe" class="projects__grid-item" target="_blank" title="Airbnb">
+								<img src="img/4.jpg" alt="" class="projects__img">
+								<div class="projects__text">
+									<span class="projects__text-title">
+									Airbnb
+								</span>
+								<span class="projects__text-subtitle">
+									Adaptive Checkbox Footer 
+								</span>
+								</div>
+							</a>
+						</div>
+						<div class="card">
+							<a href="https://codepen.io/mpone/pen/PoYdzGd" class="projects__grid-item" target="_blank" title="Stripe">
+								<img src="img/3.jpg" alt="" class="projects__img">
+								<div class="projects__text">
+									<span class="projects__text-title">
+									Stripe
+								</span>
+								<span class="projects__text-subtitle">
+									Stripe Pricing Block 
+								</span>
+								</div>
+							</a>
+						</div>
+						<div class="card">
+							<a href="https://codepen.io/mpone/pen/dybKNVg" class="projects__grid-item" target="_blank" title="SignIn form">
+								<img src="img/5.jpg" alt="" class="projects__img">
+								<div class="projects__text">
+									<span class="projects__text-title">
+									Sign In Form
+								</span>
+								<span class="projects__text-subtitle">
+									Adaptive example of Sign In form 
+								</span>
+								</div>
+							</a>
+						</div>
+						<div class="card">
+							<a href="https://codepen.io/mpone/pen/VwZOGga" class="projects__grid-item" target="_blank" title="InVision">
+								<img src="img/2.jpg" alt="" class="projects__img">
+								<div class="projects__text">
+									<span class="projects__text-title">
+									InVision
+								</span>
+								<span class="projects__text-subtitle">
+									InVision Sign Up Page 
+								</span>
+								</div>
+							</a>
+						</div>
+						<div class="card">
+							<a href="https://codepen.io/mpone/pen/vYBZVMe" class="projects__grid-item" target="_blank" title="Magazine App">
+								<img src="img/6.jpg" alt="" class="projects__img">
+								<div class="projects__text">
+									<span class="projects__text-title">
+									Magazine App
+								</span>
+								<span class="projects__text-subtitle">
+									Example of article view in magazine's mobile app
+								</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="sm">
+				<div class="sm__box">
+					<div class="sm__box-text">
+						<span>Let's start to communicate:</span>
+					</div>
+					<div class="sm__box-links">
+						<div id="email">example@example.com</div>
+						<button title="Click to copy Email" class="sm__box-links-general sm__box-links-em" onclick="copyToClipboard('#email')">
+							<i class="fas fa-envelope-square"></i>
+						</button>
+						<a href="https://linkedin.com/in/mykhailo-parfeniuk" target="_blank" title="LinkedIn Profile" class="sm__box-links-general sm__box-links-li">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a href="https://www.facebook.com/m.parfeniuk" target="_blank" title="Facebook Profile" class="sm__box-links-general sm__box-links-fb">
+							<i class="fab fa-facebook-square"></i>
+						</a>
+					</div>
+				</div>
+			</section>
+		</div>	
+		<footer>
+			<div class="footer__elements">
+				<div class="copyright">
+					&#169; 2019 Mykhailo Parfeniuk.
+					<br>
+					All rights reserved.
+				</div>
+				<div class="footer__about">
+					Mykhailo Parfeniuk
+					<br>
+					Beginner Web-Developer
+				</div>
+				<div class="footer_email">E: example@examle.com
+				</div>	
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.masonry.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
