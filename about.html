@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mykhailo Parfeniuk - beginner web-developer</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/3263e75f2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<nav>
+				<div class="logo">
+					<a href="index.html" class="logo__name">m.p</a>
+				</div>
+				<div class="hamburger-menu">
+					<input id="menu__icon" type="checkbox" />
+					<label class="menu__btn" for="menu__icon">
+						<span class="hamburger-icon"></span>
+					</label>
+					<ul class="menu__box">
+						<li>
+							<div class="menu__item-position">
+								<a href="index.html" class="menu__item ">Portfolio</a>
+							</div>
+						</li>
+						<li>
+							<div class="menu__item-position">
+								<a href="#" class="menu__item menu__item-active menu__item-last">About</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="main">
+			<section class="photo">
+				<img src="img/photo-bg.png" alt="" class="photo__bg">
+			</section>
+			<section class="about">
+				<div class="page-about__title">
+					<div class="about__subtitle">
+					ABOUT MYSELF
+				</div>
+					Hi for all, I am Mykhailo, beginner web-developer, based in Kyiv, Ukraine. Currently now I'm studying for 4 monthes of HTML/CSS base and have already created few interesting projects, check them on a Portfolio page. If you are interested in something - just send a message, or just look my social media pages.
+				</div>
+			</section>
+
+			<section class="sm">
+				<div class="sm__box">
+					<div class="sm__box-text">
+						<span>Let's start to communicate:</span>
+					</div>
+					<div class="sm__box-links">
+						<div id="email">example@example.com</div>
+						<button title="Click to copy Email" class="sm__box-links-general sm__box-links-em" onclick="copyToClipboard('#email')">
+							<i class="fas fa-envelope-square"></i>
+						</button>
+						<a href="https://linkedin.com/in/mykhailo-parfeniuk" target="_blank" title="LinkedIn Profile" class="sm__box-links-general sm__box-links-li">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a href="https://www.facebook.com/parfeniuk.m" target="_blank" title="Facebook Profile" class="sm__box-links-general sm__box-links-fb">
+							<i class="fab fa-facebook-square"></i>
+						</a>
+					</div>
+				</div>
+			</section>
+		</div>	
+		<footer>
+			<div class="footer__elements">
+				<div class="copyright">
+					&#169; 2019 Mykhailo Parfeniuk.
+					<br>
+					All rights reserved.
+				</div>
+				<div class="footer__about">
+					Mykhailo Parfeniuk
+					<br>
+					Beginner Web-Developer
+				</div>
+				<div class="footer_email">E: example@examle.com
+				</div>	
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.masonry.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
