@@ -1,4 +1,6 @@
 # portfolio
-My first portfolio. Klick the link below to check the website:
+My first portfolio. Klick on links below to check the information:
 ***
-[Portfolio website](https://mpone.github.io/portfolio/)
+..* [Preview](https://mpone.github.io/portfolio/)
+..* [Pull request](https://github.com/mpone/portfolio/pull/1)
+ 
